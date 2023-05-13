@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script:wght@600&family=Open+Sans:ital,wght@1,500&family=Signika+Negative:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+   align-items: center;
+    margin: 0px 12px;
+    color: white;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 40px;
+    /* filter: invert(1); */
+   
+}
+
+#navbar {
+    background-color: #8b0101;
+    padding: 13px 14px;
+    font-family: 'Alkatra', cursive;
+}
+
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 25px;
+    color: white;
+    font-size: 18px;
+}
+
+#navbar li a:hover {
+    color: grey;
+}
+
+#introsection {
+    height: 410px;
+    background: url('/static/img/couple.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+    flex-direction: column;
+
+}
+
+#introsection div.small {
+    font-size: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    padding: 5px;
+}
+
+
+
+#missionsection {
+    height: 320px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin: auto;
+
+}
+
+#missionsection h2 {
+    font-size: 45px;
+    padding-top: 12px;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    
+}
+
+.card {
+    border: 2px solid black;
+    width: 30%;
+    margin: 14px 24px;
+    border-radius: 10px;
+    height: 195px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 12px ;
+    font-weight: bold;
+    font-size: 25px;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Alkatra', cursive; */
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 135px;
+    padding: 0px 14px;
+    margin: 0px 12px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 14px;
+}
+
+.card-content p{
+    font-size: 18px;
+}
+
+#sponsersection {
+    height: 250px;
+    background-color: #b4a0a0;
+}
+
+#sponsersection h2 {
+    font-size: 45px;
+    padding-top: 12px;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+}
+
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 195px;
+}
+
+.logo{
+    height: 85px;
+    /* padding: 2px 4px; */
+    margin: 50px;
+}
+
+.logo img{
+    height: 80%;
+    margin :3px;
+}
+
+#footer {
+    height: 55px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive; ;
+}
